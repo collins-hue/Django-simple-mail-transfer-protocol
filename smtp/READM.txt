@@ -1,0 +1,54 @@
+python version 3.6.9
+Django version 
+
+INSTALL PYTHON3
+$sudo apt-get update
+
+$sudo apt-get install python3
+
+---------------------------------------------
+INSTALLING PIP3
+
+$sudo apt-get install python3-pip
+
+
+----------------------------------
+Install VIRTUAL ENV.
+
+$sudo apt-get install python3-venv
+
+------------------------------------------------
+CREATE VIRTUAL ENV
+Clone the project into your your chosen Directory
+Then,
+
+$ cd Your_chose_Directory
+Then,
+
+$ python3-m venv yourVenv
+
+$ source venv/bin/activate
+
+change directory to the projects'
+
+$ cd smtp
+
+$ python3-m manage.py runserver
+
+VOILA!!
+
+NOPE!!!
+
+''''''SMTPAuthenticationError at / """""
+
+
+Go to
+
+https://myaccount.google.com/lesssecureapps?
+
+Then allow less secureapps
+-----------------------------------------
+NOTE:
+		This setting is not available for accounts with 2-Step Verification enabled.
+		 Such accounts require an application-specific 
+		password for less secure apps access
